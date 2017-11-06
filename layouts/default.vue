@@ -10,7 +10,8 @@
 
 <style scoped>
 .main-app {
-    margin-top: 3rem;
+    padding: 3rem 0;
+
 }
 </style>
 
