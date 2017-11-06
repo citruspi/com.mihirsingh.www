@@ -7,8 +7,8 @@
     </div>
 </template>
 
-<style>
-a {
+<style scoped>
+a, a:hover {
     color: #2abc9d;
 }
 </style>
