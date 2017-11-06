@@ -11,5 +11,37 @@ module.exports = {
   ],
   plugins: [
     { src: '~/plugins/uikit.js', ssr: false }
-  ]
+  ],
+  env: {
+    menuItems: [
+                {
+                    title: "About Me",
+                    path: "/about/"
+                },
+                {
+                    title: "Photography",
+                    path: "/photography/"
+                },
+                {
+                    title: "Projects",
+                    path: "/projects/"
+                },
+                {
+                    title: "Travel",
+                    path: "/travel/"
+                },
+                {
+                    title: "Writing",
+                    path: "/writing/"
+                },
+                {
+                    title: "More",
+                    path: "/more/"
+                },
+                {
+                    title: "Resume",
+                    path: "resume"
+                }
+            ]
+  }
 }
