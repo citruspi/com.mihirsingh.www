@@ -31,6 +31,10 @@
     font-weight: bold;
 }
 
+.uk-navbar-nav>li>a {
+    font-size: 1rem;
+}
+
 .uk-navbar-nav>li>a.mobile-logo {
     font-weight: bolder;
     font-size: 1.6rem;

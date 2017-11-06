@@ -24,6 +24,10 @@
     padding: 0;
 }
 
+.uk-navbar-nav>li>a {
+    font-size: 1.2rem;
+}
+
 .uk-navbar-nav>li>a.nuxt-link-active,
 .uk-navbar-nav>li>a.nuxt-link-exact-active {
     color: #000;
