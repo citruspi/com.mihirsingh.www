@@ -1,0 +1,6 @@
+{
+  "name": "com.mihirsingh.www",
+  "dependencies": {
+    "nuxt": "^1.0.0-rc11"    
+  }
+}
