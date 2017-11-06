@@ -1,6 +1,7 @@
 <template>
     <div class="topbar-menu">
         <DesktopMenu :menuItems="menuItems"/>
+        <MobileMenu :menuItems="menuItems"/>
     </div>
 </template>
 
@@ -12,10 +13,12 @@
 
 <script>
 import DesktopMenu from '~/components/menu/topbar-menu-desktop'
+import MobileMenu from '~/components/menu/topbar-menu-mobile'
 
 export default {
     components: {
-        DesktopMenu
+        DesktopMenu,
+        MobileMenu
     },
     data () {
         return {
