@@ -1,6 +1,8 @@
 {
   "name": "com.mihirsingh.www",
   "dependencies": {
-    "nuxt": "^1.0.0-rc11"    
+    "nuxt": "^1.0.0-rc11",
+    "jquery": "^3.2.1",
+    "uikit": "^3.0.0-beta.30"
   }
 }
