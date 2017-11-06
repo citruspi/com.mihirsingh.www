@@ -7,7 +7,7 @@
 
 <style scoped>
 .topbar-menu {
-    margin-top: 2rem;
+    padding-top: 2rem;
 }
 </style>
 
