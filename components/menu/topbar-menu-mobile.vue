@@ -24,10 +24,11 @@
     </div> 
 </template>
 
-<style>
+<style scoped>
 .uk-navbar-nav>li>a.nuxt-link-active,
 .uk-navbar-nav>li>a.nuxt-link-exact-active {
     color: #000;
+    font-weight: bold;
 }
 
 .uk-navbar-nav>li>a.mobile-logo {

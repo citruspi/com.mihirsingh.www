@@ -8,11 +8,11 @@
                         <p>Infrastructure Engineer. Open source advocate. Amateur photographer. Security enthusiast. Lover of canines, cheesecake, and traveling.</p>
                         <p>dba <a>@citruspi</a></p>
                     </div>
-                    <div class="uk-text-center">
-                        <img class="uk-visible@m" src="/img/footer-nawab.jpeg"/>
+                    <div class="uk-text-center uk-visible@m">
+                        <img src="/img/footer-nawab.jpeg"/>
                     </div>
-                    <div class="uk-text-center">
-                        <img class="uk-visible@m" src="/img/footer-beast.jpg"/>
+                    <div class="uk-text-center uk-visible@m">
+                        <img src="/img/footer-beast.jpg"/>
                     </div>
                     <div class="uk-text-left">
                         <p class="uk-text-uppercase">Links</p>
