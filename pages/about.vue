@@ -1,4 +1,5 @@
 <template>
+<Page>
     <div class="uk-container">
         <blockquote cite="#">
             <p class="uk-margin-small-bottom">How odd I can have all this inside me and to you it’s just words.</p>
@@ -51,10 +52,16 @@
 
         <p>All other pages should be JavaScript-free. In addition there is no user tracking – aside from that performed by Adobe Typekit – and all assets (once again… aside from the font from Adobe Typekit) are served directly by my server(s), no CDN involved.</p>
     </div>
+</Page>
 </template>
 
 <script>
+import Page from '~/components/layouts/page'
+
 export default {
+    components: {
+        Page
+    },
     head () {
         return {
             title: 'About Me'
